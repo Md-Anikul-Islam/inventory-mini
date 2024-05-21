@@ -10,8 +10,13 @@ git remote add origin https://github.com/Md-Anikul-Islam/inventory-mini.git
 git pull origin main
 ```
 ```
-create database and name dealer in .env file
+cp .env.example .env
 ```
+
+```
+php artisan key:generate
+```
+
 ```
 composer update
 ```
