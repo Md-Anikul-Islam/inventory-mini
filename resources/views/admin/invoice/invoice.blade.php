@@ -13,6 +13,11 @@
     <link type="text/css" rel="stylesheet" href="{{asset('invoice/style.css')}}">
     <!-- Font Awesome -->
     <script src="{{asset('invoice/fontAwesome.js')}}"></script>
+    <style>
+        .invoice-1 .invoice-logo {
+            padding: 10px 50px;
+        }
+    </style>
 </head>
 <body>
 <div class="invoice-1 invoice-content">
@@ -28,7 +33,7 @@
                                     <div class="invoice-logo">
                                         <!-- logo started -->
                                         <div class="logo">
-                                            <h2>RARAR</h2>
+                                           <img src="{{URL::to('invoice/rar.png')}}" style="height: 100px;">
                                         </div>
                                         <!-- logo ended -->
                                     </div>
