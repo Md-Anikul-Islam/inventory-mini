@@ -109,12 +109,12 @@
                 </li>
 
                 <li class="side-nav-item">
-                    <a data-bs-toggle="collapse" href="#sidebarPages" aria-expanded="false" aria-controls="sidebarPages" class="side-nav-link">
+                    <a data-bs-toggle="collapse" href="#catPages" aria-expanded="false" aria-controls="catPages" class="side-nav-link">
                         <i class="ri-pages-line"></i>
                         <span> Category </span>
                         <span class="menu-arrow"></span>
                     </a>
-                    <div class="collapse" id="sidebarPages">
+                    <div class="collapse" id="catPages">
                         <ul class="side-nav-second-level">
                             <li>
                                 <a href="{{route('category.section')}}">Category List</a>
@@ -122,6 +122,40 @@
                         </ul>
                     </div>
                 </li>
+
+                <li class="side-nav-item">
+                    <a data-bs-toggle="collapse" href="#bankPages" aria-expanded="false" aria-controls="bankPages" class="side-nav-link">
+                        <i class="ri-pages-line"></i>
+                        <span> Bank </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="bankPages">
+                        <ul class="side-nav-second-level">
+                            <li>
+                                <a href="{{route('bank.section')}}">Bank List</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="side-nav-item">
+                    <a data-bs-toggle="collapse" href="#invoicePages" aria-expanded="false" aria-controls="invoicePages" class="side-nav-link">
+                        <i class="ri-pages-line"></i>
+                        <span> Invoice </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="invoicePages">
+                        <ul class="side-nav-second-level">
+                            <li>
+                                <a href="{{route('invoice.section')}}">Invoice List</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+
+
+
             </ul>
             <div class="clearfix"></div>
         </div>
