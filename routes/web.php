@@ -42,5 +42,6 @@ Route::middleware('auth')->group(callback: function () {
     Route::get('/invoice-section', [InvoiceController::class, 'index'])->name('invoice.section');
     Route::post('/invoice-store', [InvoiceController::class, 'store'])->name('invoice.store');
     Route::get('/invoice-delete/{id}', [InvoiceController::class, 'destroy'])->name('invoice.destroy');
+    Route::get('/invoice/{id}', [InvoiceController::class, 'show'])->name('invoice.show');
 });
 require __DIR__.'/auth.php';

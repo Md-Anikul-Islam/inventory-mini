@@ -89,4 +89,10 @@ class InvoiceController extends Controller
         Toastr::success('Bank Added Successfully', 'Success');
         return redirect()->back();
     }
+
+    public function show($id)
+    {
+        $invoice = Invoice::find($id);
+        return view('admin.invoice.invoice',compact('invoice'));
+    }
 }

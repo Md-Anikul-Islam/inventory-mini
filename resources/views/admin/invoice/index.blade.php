@@ -60,6 +60,7 @@
                             <td>
                                 <div class="d-flex gap-1">
                                     <a href="{{route('invoice.destroy',$invoiceData->id)}}"class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#danger-header-modal{{$invoiceData->id}}">Delete</a>
+                                    <a href="{{route('invoice.show',$invoiceData->id)}}" class="btn btn-info">Invoice</a>
                                 </div>
                             </td>
 
